@@ -1,0 +1,758 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(230, 236, 255);
+    width: 100%;
+}
+
+
+
+/*----------------------------- HEADER---------------------------*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 4, 119);
+    color: white;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+
+
+/*---------------Estilos de la caja estrellas y h1 En el header-------------*/
+
+.cajah1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    
+}
+
+
+
+/*------------------Estilos de la caja banderas-----------------*/
+
+.cajabanderas{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.imag-hdr{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*------------Estilos en botones de navegacion-navigationbar-----------------*/
+
+.navigationBarList{
+    display: flex;
+    align-self: flex-end;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+
+
+.enlace{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.enlace:hover{
+    color:  rgb(250, 209, 147);
+    border-radius: 5px;
+}
+
+
+.active{
+    color: rgb(241, 153, 21);
+}
+
+
+/*-------------------Estilos en caja de productos-----------------*/
+
+.cajacontenedora{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0 0 0;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.primeracaja{
+    height: 500px;
+    width: 900px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+/*------Estilos en la primera imagen lado derecho-------*/
+
+
+
+
+.imag01{
+    display: flex;
+    align-items: center;
+    width: 420px;
+    height: 450px;
+    padding: 0 0 0 90px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+
+/*------Estilos en el titulo 'cambia la apariencia de tu rostro'-------*/
+
+
+h2{
+    justify-content: center;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+    background-color:  white;
+    flex-wrap: wrap;
+    font-size: 35px;
+    width: 100%; 
+    align-items: center;
+}
+
+
+/*-----------------Estilos en primer bloque de texto---------------*/
+
+.parrafo1{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-top: 170px;
+    padding-left: 40px;
+}
+
+
+
+
+/*------Estilos en el titulo 'aceite organico para el crecimiento de la barba'-------*/
+
+.titulo2{
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+    background-color:  white;
+    flex-wrap: wrap;
+    font-size: 24px;
+    width: 100%;   
+}
+
+
+
+
+/*----Estilos en tabla donde se encuentran alojados los productos-------*/
+
+
+.contenedoradeproductos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+
+.cajaproductos01{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    height: 300px;
+}
+
+
+.cajaproductos02{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    height: 300px;
+}
+
+
+.imag-prod-pp{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+/*---------Estilos en segundo bloque de texto---------*/
+
+.parrafo2{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: rgb(43, 36, 2);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+/*------------Estilos en la caja que aloja la imagen 2 y el video---------*/
+
+.video-imag{
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+/*----------------------caja de la imagen 2----------------------*/
+.imagvid{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 75% 25%;
+    height: 650px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+.descripcion p{
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+
+.imagvid img{
+    width: 300px;
+    height: 420px;
+}
+
+
+/*------------------------Estilos del video--------------------*/
+
+
+
+.mp4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 470px;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/*----Estilos en footer---------Estilos en footer---------*/
+/*----Estilos en footer---------Estilos en footer---------*/
+/*----Estilos en footer---------Estilos en footer---------*/
+/*----Estilos en footer---------Estilos en footer---------*/
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(4, 4, 119);
+    height: 100px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.social-icon li a{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    width: 50px;
+    height: 30px;
+    color: aliceblue;
+}
+
+
+.icon-elem{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.icon{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.menu li a{
+    color: white;
+}
+
+
+.menu-elem{
+    list-style: none;
+}
+
+
+.menu-ic{
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: o.3s;
+}
+
+
+.menu-ic:hover{
+    color: rgb(250, 209, 147);
+    opacity: 1;
+}
+
+
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+
+
+
+
+
+
+/*--------------Estilos de la caja del formulario--------------*/
+
+
+
+.containerf{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+
+.containerf .textoform{
+    margin-top: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*-------------------Estilos de las listas-----------------*/
+
+
+.flex-outer, .flex-inner{
+    list-style-type: none;
+    padding: 5px; 
+}
+
+
+.liButtons{
+    margin-top: 30px;
+}
+
+
+
+/*----------------Estilos de la lista principal---------------*/
+
+.flex-outer{
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.flex-outer li{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+
+.flex-inner{
+    margin-top: 40px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+
+.flex-outer > li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+
+.flex-outer li label, .flex-outer li p{
+    padding: 0px;
+    font-weight: 300;
+    letter-spacing: .05em;    
+}
+
+
+.flex-outer> li> label, .flex-outer li p{
+    max-width: 220px;    
+}
+
+
+.flex-outer> li> label + *, .flex-inner{
+    flex: 1 0 420px;    
+}
+
+
+.flex-outer li p{
+    margin: 10px;
+}
+
+
+.flex-outer li input:not([type='radio']), .flex-outer li textarea{
+    padding: 4px;
+    border-radius: 10px;    
+    background-color: white;
+}
+
+
+.flex-outer .liButtons button{
+    display: flex;
+    margin-left: auto;
+    padding: 3px 10px;
+    background-color:  rgb(4, 4, 119);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    border-radius: 15px;
+}
+
+
+.flex-outer .liButtons{
+    padding: 20px;
+}
+
+
+.flex-inner li input{
+    width: 12px;
+    margin-right: 7px;
+}
+
+input:focus{
+    border: dotted 1px rgb(214, 210, 210)
+}
+
+
+/*-------------------Estilos en productos-----------------*/
+/*-------------------Estilos en productos-----------------*/
+/*-------------------Estilos en productos-----------------*/
+/*-------------------Estilos en productos-----------------*/
+
+
+
+
+.cajagaleria{
+    display: flex;
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    border: solid black 3px;
+}
+
+
+.cajanatura{
+    grid-template-columns: repeat(3, ifr);
+    background-color:  rgb(243, 232, 199);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: auto;
+    height: auro;
+    margin: 10px;
+    align-items: center;
+    border: solid black 1px;
+}
+
+
+.cajanatura p{
+    justify-content: center;
+    font-size: 20px;
+    height: auto;   
+}
+
+
+.sandalo{
+    
+    width: 180px;
+    height: auto;
+}
+
+
+.olivas{
+    width: 180px;
+    height: auto;
+}
+
+
+.menta{
+    width: 180px;
+    height: auto;
+}
+
+
+.producto{
+    width: 180px;
+    height: 180px;
+}
+
+
+.cajatextolab{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color:  rgb(4, 4, 119);
+}
+
+
+    .textolab{
+        color: white;
+        display: flex;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+}
+
+
+.imagenlab01{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagenlab{
+    width: 1080px;
+    height: 720px;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+
+
+
+.contenedorcontacto{
+    padding: 50px 0 0 0;
+    align-items: center;
+    background-color: rgb(247, 237, 209);
+    border: solid gray 1px;
+}
+
+
+.contenedorcontacto .textcontac{
+    margin-bottom: 50px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 5px 0px 5px 20px;
+}
+
+
+.imagenynombre{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+.imagenynombre .texcontac{
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.imagenynombre img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.datosynumeros{
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.iconfax{
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+
+.icondireccionweb{
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+}
+
+.icontelefono{
+    width: 20px; 
+    height: 20px;
+}
+
+
+.ubicacionmap{
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 40px;
+}
+
+
+.ubicacionmap img{
+    width: 380px;
+    height: 220px;
+}
+
+
+@media (max-width: 1200px){
+    .primeracaja, .imagenprincipal, 
+    .tabla, .video-imag, .cajagaleria, .cajanatura{
+        display: block;
+    }
+    .container-int-blog{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
